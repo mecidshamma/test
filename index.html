@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" die="">
+<head>
+ 
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mecid</title>
+    <!-- start bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- end bootstrap -->
+  <!-- start font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- end font awesome -->
+  <!-- start css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- end css -->
+<!-- start icon -->
+<link rel="icon" href="icons/42496school_99040.ico">
+<!-- end icon -->
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="" width="80px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الرئسية </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">تسجيل الدخول</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">دورات</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  المزيد
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">حول الشركة</a></li>
+                  <li><a class="dropdown-item" href="#">اتصل بنا</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">فروعنا</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+    <!-- start slider  -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/young-woman-teacher-wearing-glasses-standing-near-blackboard-classroom-explaining-lesson-showing-thumb-up-smiling-cheerfully-happy-positive.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/11.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/12.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- end slider  -->
+    <!-- start our features -->
+      <div class="our-features">
+        <div class="container">
+          <h1>Our Features </h1>
+          <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus similique consequuntur consectetur architecto reprehenderit at.</P>
+          <div class="row">
+              <div class="col-md-4 one-feature">
+                <i class="fa-solid fa-computer"></i>
+                <h3>دورات الحاسب</h3>
+                <p>يتوفر لدينا دورات حاسوب مثل البرمجة,والفتوشوف,واساسيات الحاسوب ,و دورات ورد و اكسيل </p>
+              </div>
+              <div class="col-md-4 one-feature">
+                <i">
+                <i class="fa-solid fa-child-reaching"></i>
+                <h3>برنامج رؤية لتمكين اليافعين</h3>
+                <p>برنامج رؤية هوا برنامج يتم تعمه من منظمة رؤية وتكافل الشام وهوا برنامج لتدريب اليافعين على كثير من الامور منها على طريقة الاقاء امام الجمهور والتربية الصحيحة و ويوجد  الكثير من الانشطة  مثل رحل مع اليافعين الى المسبح او ملعب كرة قدم واماكن اخرى</p>
+              </div>
+              <div class="col-md-4 one-feature">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h3>مشروع تطوع</h3>
+                <p>مشروع تطوع سيتم دعمة من برنامج رؤية لتمكين اليافعين سيقدمو اليافعين عمل تطوع  يفيد المجتمع مثل  دهن جدران المدارس اوزراعة الاشجار في المناطق العامة والكثير من الاعمال</p>              
+              </div>
+          </div>
+        </div>
+      </div>
+    <!-- end our features -->
+  
+    <!-- start our team -->
+    <div class="our-team">
+      <div class="container">
+        <h1>our team</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident hic, odit adipisci suscipit laudantium reiciendis.</p>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 employee" employee>
+              <div class="card">
+                <img src="image/16.jpg" alt="">
+                <h3 class="name">muhammed nazir kurdi</h3>
+                <p class="position">kimya teacher</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quidem ut animi dignissimos, delectus cum dolore quo repudiandae aliquam ad!</p>
+                <div class="card-footer social">
+                  <a href="https://www.instagram.com/jo._.muhammed/" target="_blank">  <i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.facebook.com/muhammed.na.549" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.tiktok.com/@muhammedna0" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 employee" employee>
+              <div class="card">
+                <img src="image/1.jpg" alt="">
+                <h3 class="name">muhammed ghossen</h3>
+                <p class="position">english teacher</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quidem ut animi dignissimos, delectus cum dolore quo repudiandae aliquam ad!</p>
+                <div class="card-footer social">
+                  <a href="https://www.instagram.com/its.mhmdnwr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/gisinnor" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.tiktok.com/@its.mhmdnwr" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 employee" employee>
+              <div class="card">
+                <img src="image/2.jpg" alt="">
+                <h3 class="name">teysir aloni</h3>
+                <p class="position">Maths teacher</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quidem ut animi dignissimos, delectus cum dolore quo repudiandae aliquam ad!</p>
+                <div class="card-footer social">
+                 <a href="https://www.instagram.com/xtey_.allo_.x/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/masoodabolteen" target="_blank"><i class="fa-brands fa-facebook"></i></a></a>
+                  <a href="https://www.tiktok.com/@MS4wLjABAAAAnYcFhZufEvoaS7n7jgG_ZEPXyWsMk7Nw9eN4HrjD_Uu3GkyzR_yveXZR9j2bvpIr" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 employee" employee>
+              <div class="card">
+                <img src="image/young-woman-teacher-wearing-glasses-standing-near-blackboard-classroom-explaining-lesson-showing-thumb-up-smiling-cheerfully-happy-positive.jpg" alt="">
+                <h3 class="name">tarek aljasm</h3>
+                <p class="position">history teacher</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quidem ut animi dignissimos, delectus cum dolore quo repudiandae aliquam ad!</p>
+                <div class="card-footer social">
+                  <a href="https://www.instagram.com/tarek._.jm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100082981825634" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.tiktok.com/@tarekaljasem" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- end our team -->
+    <!-- start statistics section -->
+   <div class="statistics">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="number">
+              <h3>mecid</h3>
+              <h3>50</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="number">
+              <h3>mecid</h3>
+              <h3>50</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="number">
+              <h3>mecid</h3>
+              <h3>50</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="number">
+              <h3>mecid</h3>
+              <h3>50</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!-- end statistics section -->
+     <!-- start footer -->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com/" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/login" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">mecid 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">AHMED 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">ABO 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">MOHAMED4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white"></a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">MECID 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">AHMED 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">ABO 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">MOHAMED 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">MECİD 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">AHMED 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">ABO 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">MOHAMED4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">MECID 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">AHMED 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">ABO 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">MOHAMED4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 المبرمج استاذ مجد شما 
+    <a class="text-white" href="https://www.instagram.com/">لتوصول</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">البريد الالكتروني</label>
+            <input type="email" class="form-control" placeholder>
+          </div>
+            
+          </div>
+       
+        
+            </form>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/63553fd8daff0e1306d38403/1gg2g2q1k';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html> 
